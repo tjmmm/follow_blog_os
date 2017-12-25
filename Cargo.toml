@@ -1,0 +1,16 @@
+[package]
+authors = ["tjmmm <p3594ts@live.jp>"]
+name = "blog_os"
+version = "0.1.0"
+
+[dependencies]
+multiboot2 = "0.3.2"
+rlibc = "1.0"
+volatile = "0.1.0"
+
+[dependencies.spin]
+git = "https://github.com/messense/spin-rs.git"
+rev = "020f1b3"
+
+[lib]
+crate-type = ["staticlib"]
